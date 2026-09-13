@@ -1,0 +1,14 @@
+﻿**/build/
+.vscode/
+*.elf
+*.uf2
+*.bin
+*.hex
+*.map
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+.ninja_deps
+.ninja_log
+
