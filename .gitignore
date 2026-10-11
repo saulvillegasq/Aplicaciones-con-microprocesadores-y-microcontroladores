@@ -1,14 +1,36 @@
-﻿**/build/
+﻿# ============================================
+# Repositorio de prácticas Raspberry Pi Pico
+# ============================================
+
+# Carpetas de construcción
+**/build/
+**/outputs/
+**/compilacion/
+
+# Configuración local de VS Code
 .vscode/
+**/.vscode/
+
+# Archivos de firmware y compilación
 *.elf
 *.uf2
 *.bin
 *.hex
 *.map
+*.o
+*.obj
+*.a
+*.lst
+
+# Archivos generados por CMake y Ninja
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
+build.ninja
 .ninja_deps
 .ninja_log
+compile_commands.json
 
+# Agregar otros nombres de carpeta si es necesario
+# **/nuevo_nombre/
